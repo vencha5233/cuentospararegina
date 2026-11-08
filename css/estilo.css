@@ -188,3 +188,6 @@ footer p{margin:0 0 8px}
   .biblio{grid-template-columns:1fr 1fr}
 }
 @media (max-width:520px){.biblio{grid-template-columns:1fr}.destacado .btn{width:100%;justify-content:center}}
+
+.btn-pronto{background:transparent;border:2px dashed var(--sol);color:var(--sol);cursor:default;justify-content:center}
+.btn-pronto:hover{transform:none}
