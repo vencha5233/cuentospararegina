@@ -191,3 +191,14 @@ footer p{margin:0 0 8px}
 
 .btn-pronto{background:transparent;border:2px dashed var(--sol);color:var(--sol);cursor:default;justify-content:center}
 .btn-pronto:hover{transform:none}
+
+/* reproductor en el inicio y botón de YouTube */
+.destacado .yt{position:absolute;inset:0;aspect-ratio:auto;height:100%;border-radius:0;box-shadow:none}
+.destacado .yt img{position:absolute;inset:0}
+.destacado .yt .badge{z-index:1}
+.destacado .tip{font-weight:600;color:var(--rosa);margin:0 0 10px;font-size:.98rem}
+.btn-yt{background:#e53935;color:#fff;box-shadow:0 8px 22px rgba(229,57,53,.3)}
+.bajo-video{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:18px}
+.bajo-video span{color:var(--gris);font-weight:600;font-size:.95rem}
+@media (max-width:520px){.bajo-video .btn{width:100%;justify-content:center}}
+.destacado .yt img{object-position:50% 25%}
